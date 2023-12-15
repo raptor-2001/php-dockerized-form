@@ -5,6 +5,7 @@ services:
     build: 
        context: ./php
        dockerfile: Dockerfile
+    image: raptor2001/php-apache-environment
     depends_on:
       - db
     volumes:
